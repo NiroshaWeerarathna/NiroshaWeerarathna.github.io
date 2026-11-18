@@ -1,0 +1,27 @@
+ongoing:
+  - title: Battery storage and power system stability
+    summary: How can battery energy storage help keep a power system stable as more renewable generation comes online?
+    featured: true
+  - title: Voltage quality in solar-integrated networks
+    summary: How do nonlinear loads affect voltage quality and harmonics on distribution networks with solar generation?
+    featured: true
+  - title: Hybrid solar–piezoelectric energy tiles
+    summary: Investigating how a single tile can harvest energy from both sunlight and mechanical pressure.
+  - title: Recognizing power quality disturbances
+    summary: Using machine learning to detect disturbances in electrical signals and distinguish one type of disturbance from another.
+    featured: true
+  - title: Finding faults on overhead power lines
+    summary: Investigating real-time fault detection from images captured by unmanned aerial vehicles.
+completed:
+  - Bifacial solar photovoltaic systems with adaptive tracking for improved energy capture.
+  - Neural network optimization for fault detection and classification in low-voltage networks with solar generation.
+  - Machine learning for detecting, classifying and locating faults in medium-voltage power systems.
+  - Centralized monitoring and management of distributed rooftop solar systems using the Internet of Things.
+  - Joint solar photovoltaic and piezoelectric energy harvesting for smart roads.
+  - Adaptive modelling of a medium-rated squirrel-cage induction motor to improve its performance.
+  - Machine learning and unmanned aerial systems for vegetation management along electricity distribution networks.
+  - Energy optimization in three-phase induction motors.
+  - Reliability improvement for the medium-voltage underground network in Kandy, Sri Lanka.
+  - A feasibility study and design for adding solar generation to the Senok wind power plant.
+  - Analysis and improvement of the earthing system at the Kirindiwela grid substation.
+  - A cascaded H-bridge multilevel inverter for distribution static compensation and power quality improvement.
