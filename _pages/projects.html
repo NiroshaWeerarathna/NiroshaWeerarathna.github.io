@@ -1,0 +1,32 @@
+---
+layout: academic-profile
+title: Research projects
+permalink: /projects/
+excerpt: Current and completed projects on power quality, renewable generation, energy storage and fault diagnosis.
+---
+<header class="page-heading">
+  <h1>Research projects</h1>
+</header>
+<nav class="year-nav" aria-label="Jump to project status">
+  <a href="#ongoing">Ongoing projects</a>
+  <a href="#completed">Completed projects</a>
+</nav>
+<section class="section" aria-labelledby="ongoing">
+  <h2 id="ongoing">Ongoing projects</h2>
+  <ul class="group-list">
+    {% for project in site.data.profile_projects.ongoing %}
+    <li class="entry">
+      <h3>{{ project.title | escape }}</h3>
+      <p>{{ project.summary | escape }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+<section class="section" aria-labelledby="completed">
+  <h2 id="completed">Completed projects</h2>
+  <ul class="summary-list">
+    {% for project in site.data.profile_projects.completed %}
+    <li>{{ project | escape }}</li>
+    {% endfor %}
+  </ul>
+</section>

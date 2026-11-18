@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.url != "/" %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.excerpt | escape }}">
+  <meta name="theme-color" content="#183e59">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.excerpt | escape }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/{{ site.author.avatar }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/academic-profile.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="brand" href="{{ site.baseurl }}/">{{ site.author.name }}</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        {% for item in site.data.navigation.main %}
+        <a href="{{ site.baseurl }}{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Researcher profile">
+      <img class="portrait" src="{{ site.baseurl }}/images/{{ site.author.avatar }}" alt="Portrait of Nirosha Weerarathna" width="158" height="198">
+      <div class="identity">
+        <p class="sidebar-name">{{ site.author.name }}</p>
+        <p class="sidebar-role">PhD candidate</p>
+        <p class="affiliation">Wuhan University of Technology<br>Wuhan, China</p>
+      </div>
+      <ul class="contacts" aria-label="Contact and research profiles">
+        <li><a href="mailto:{{ site.author.email }}"><span class="icon" aria-hidden="true">✉</span>Email</a></li>
+        <li><a href="https://github.com/{{ site.author.github }}"><span class="icon code-icon" aria-hidden="true">&lt;/&gt;</span>GitHub</a></li>
+        <li><a href="{{ site.author.googlescholar | escape }}"><span class="icon" aria-hidden="true">▤</span>Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/"><span class="icon linkedin-icon" aria-hidden="true">in</span>LinkedIn</a></li>
+      </ul>
+    </aside>
+    <main id="content" tabindex="-1">
+      {{ content }}
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>{{ site.author.name }} · Academic profile</span>
+      <a href="#content">Back to content ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

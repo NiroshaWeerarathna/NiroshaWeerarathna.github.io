@@ -1,0 +1,60 @@
+- year: 2026
+  papers:
+    - title: An Optimization-Based Neural Network Method for Detection and Classification of Faults in PV-Integrated Low-Voltage Systems
+      authors: R. M. D. P. Harithashi, H. A. S. T. Bandara, M. G. N. D. Weerarathna and A. I. S. Juhaniya
+      venue: IEEE International Research Conference on Smart Computing and Systems Engineering (SCSE)
+      short_venue: IEEE SCSE
+      pages: 1–6
+      link: https://doi.org/10.1109/SCSE70081.2026.11499865
+      link_label: DOI
+      selected: true
+    - title: A Parametric Study of a Medium Rated Squirrel Cage Induction Motor Slots Design for Performance Improvement
+      authors: M. U. M. Ahamed, A. M. F. Ishara, A. I. S. Juhaniya and M. G. N. D. Weerarathna
+      venue: IEEE International Research Conference on Smart Computing and Systems Engineering (SCSE)
+      pages: 1–7
+      link: https://doi.org/10.1109/SCSE70081.2026.11499906
+      link_label: DOI
+    - title: Hybrid Solar PV and Piezoelectric Energy Harvesting for Smart Roads
+      authors: G. S. K. Godawela, G. G. G. M. Dilruk, S. K. Jaslin, A. I. S. Juhaniya and M. G. N. D. Weerarathna
+      venue: IEEE International Research Conference on Smart Computing and Systems Engineering (SCSE)
+      short_venue: IEEE SCSE
+      pages: 1–6
+      link: https://doi.org/10.1109/SCSE70081.2026.11499837
+      link_label: DOI
+      selected: true
+    - title: A Machine Learning Based Approach for Detection and Classification of Fault and Fault Location in Medium Voltage Power System
+      authors: W. A. S. U. Gunathilaka, R. M. Y. R. Chandrasiri, E. A. I. S. Juhaniya and E. M. G. N. D. Weerarathna
+      venue: IEEE 6th International Conference on Advanced Research in Computing (ICARC)
+      pages: 1–6
+      link: https://doi.org/10.1109/ICARC68737.2026.11454050
+      link_label: DOI
+- year: 2025
+  papers:
+    - title: "Harnessing Small Hydro Potential: A Case Study of Pundalu Oya, Sri Lanka"
+      authors: M. P. D. Manohara, M. G. N. D. Weerarathna and S. H. D. Liyanage
+      venue: 18th International Research Conference, General Sir John Kotelawala Defence University
+      pages: "33"
+      single_page: true
+- year: 2024
+  papers:
+    - title: Energy Optimization in the Three-phase Induction Motors
+      authors: Thakshila Sandaruwani, W. Madushanka, W. G. C. W. Kumara, Nirosha Weerarathna and P. Rudrigu
+      venue: IESL YMS Technical Conference, Colombo
+      link: https://www.researchgate.net/publication/384459408_Energy_Optimization_in_the_Three-phase_Induction_Motors
+      link_label: Publication record
+    - title: "Harnessing Wave Energy for Sustainable and Resilient Power Generation in Sri Lanka: A Feasibility Study"
+      authors: M. P. D. Manohara, M. G. N. D. Weerarathna and S. H. D. Liyanage
+      venue: 17th International Research Conference, General Sir John Kotelawala Defence University
+      short_venue: KDU International Research Conference
+      link: https://ir.kdu.ac.lk/handle/345/8827
+      link_label: University repository
+      selected: true
+- year: 2023
+  papers:
+    - title: Smart Power Monitoring Device with Redundant Residual Current Fault Detection
+      authors: W. N. S. Fernando, K. P. T. Dasun, M. G. N. Weerarathna and J. M. S. M. Jayasekara
+      venue: 7th International Research Conference of Uva Wellassa University
+      pages: "101"
+      single_page: true
+      link: https://irc.uwu.ac.lk/wp-content/uploads/2023/08/IRCUWU2023-Proceedings-F3.pdf
+      link_label: Conference proceedings
