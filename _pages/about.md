@@ -2,7 +2,7 @@
 layout: academic-profile
 title: Nirosha Weerarathna
 permalink: /
-excerpt: "Research by Nirosha Weerarathna on power quality, renewable energy integration and fault diagnosis in electrical distribution networks."
+excerpt: "Research by Nirosha Weerarathna on artificial intelligence, computer vision, machine vision, fault detection and data-driven engineering systems."
 redirect_from:
   - /about/
   - /about.html
@@ -22,20 +22,21 @@ redirect_from:
 
   <section class="section" aria-labelledby="about">
     <h2 id="about">About</h2>
-    <p>I am an electrical and electronic engineering researcher and a PhD candidate at Wuhan University of Technology. I study how power networks behave when they carry more renewable energy. My work looks at how batteries can help keep a network stable, how solar generation and nonlinear loads affect voltage quality, and how machine learning can help locate electrical faults.</p>
-    <p>Before coming to Wuhan, I taught electrical engineering at South Eastern University of Sri Lanka and The Open University of Sri Lanka. At both universities, I supervised undergraduate research. My own early work on power quality began at the National Institute of Technology Meghalaya, where I studied how a multilevel inverter could compensate for disturbances in a distribution system.</p>
+    <p>I am an electrical and electronic engineering researcher and a PhD candidate at Wuhan University of Technology, China, with an interdisciplinary research focus spanning Electrical Engineering, Computer Science, and Artificial Intelligence. My current research explores the application of AI, machine learning, and deep learning techniques to solve complex engineering problems. My research interests include computer vision, AI-based image compression, machine vision, intelligent fault detection, and data-driven engineering systems. I am particularly interested in developing efficient and intelligent computational approaches for real-world applications.</p>
+    <p>Before coming to Wuhan, I taught electrical engineering at South Eastern University of Sri Lanka and The Open University of Sri Lanka, where I also supervised undergraduate research projects. My academic foundation was established at the National Institute of Technology Meghalaya, India, where I completed my Bachelor's degree in Electrical and Electronics Engineering. My early research work focused on power quality, particularly investigating how multilevel inverters could compensate for disturbances in electrical distribution systems.</p>
+    <p>My broader research interests bring together electrical engineering principles and emerging computational technologies, particularly exploring how artificial intelligence can contribute to smarter, more efficient, and reliable engineering systems.</p>
   </section>
 
   <section class="section" aria-labelledby="research-areas">
     <h2 id="research-areas">Research areas</h2>
     <div class="area-grid">
       <div class="area">
-        <h3>Power quality and fault diagnosis</h3>
-        <p>Detecting disturbances in voltage signals and identifying the type and location of faults in low- and medium-voltage networks.</p>
+        <h3>Artificial intelligence and machine learning</h3>
+        <p>Developing machine learning and deep learning approaches for intelligent, efficient and data-driven engineering systems.</p>
       </div>
       <div class="area">
-        <h3>Renewable energy integration</h3>
-        <p>Studying battery storage and solar generation on the grid, alongside ways to harvest energy from waves, small hydro sites and road surfaces.</p>
+        <h3>Computer vision and intelligent fault detection</h3>
+        <p>Applying computer vision, machine vision and AI-based image analysis to image compression and fault detection in real-world systems.</p>
       </div>
     </div>
   </section>
