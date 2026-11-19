@@ -51,12 +51,12 @@ redirect_from:
     <a class="more" href="{{ site.baseurl }}/publications/">All publications <span aria-hidden="true">→</span></a>
   </section>
 
-  <section class="section" aria-labelledby="current-projects">
-    <h2 id="current-projects">Current research projects</h2>
+  <section class="section" aria-labelledby="completed-projects">
+    <h2 id="completed-projects">Completed research projects</h2>
     <ul class="summary-list">
-      {% for project in site.data.profile_projects.ongoing %}{% if project.featured %}
-      <li>{{ project.title | escape }}</li>
-      {% endif %}{% endfor %}
+      {% for project in site.data.profile_projects.completed limit:5 %}
+      <li>{{ project | escape }}</li>
+      {% endfor %}
     </ul>
     <a class="more" href="{{ site.baseurl }}/projects/">All research projects <span aria-hidden="true">→</span></a>
   </section>
